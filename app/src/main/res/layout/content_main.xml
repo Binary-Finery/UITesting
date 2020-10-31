@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="38sp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="item 1"
+        android:textColor="#000"
+        android:fontFamily="monospace"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/item_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 1"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 2"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 3"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 4"
+            app:cornerRadius="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/item_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 5"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 6"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 7"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/item_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@drawable/button_unselected"
+            android:text="item 8"
+            app:cornerRadius="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
